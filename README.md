@@ -17,18 +17,6 @@ evonext/
 ├── advocacia-reis/
 ├── barbearia-alpha/
 └── gustavo-luis-arquitetura/
-```
-
-## O que trocar antes de publicar
-1. `js/main.js` → bloco CONFIG: WhatsApp, telefone, e-mail e Instagram reais.
-2. `images/socios/` → fotos dos sócios (arthur.jpg e marcos.jpg).
-3. `index.html` → seção Depoimentos: hoje são de demonstração. Troque pelos reais
-   (com autorização) e apague a etiqueta "depoimento de demonstração".
-4. Cada pasta de projeto tem uma página de apresentação. Para usar o site completo,
-   copie os arquivos dele para a pasta (o `index.html` dele substitui o da página de apresentação)
-   ou descomente o botão "Abrir o site" e cole o link.
-5. Newsletter: em CONFIG, cole o endereço de um serviço de formulário (ex.: Formspree).
-   Sem isso, o cadastro abre uma conversa no WhatsApp.
 
 ## Visual
 Tema escuro/futurista: fundo com grade e brilhos, rede de partículas interativa no hero (reage ao mouse),
