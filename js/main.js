@@ -1,16 +1,14 @@
 /* ==========================================================
    EvoNext — scripts
-   ➜ EDITE APENAS O BLOCO "CONFIG" ABAIXO com os dados reais.
    ========================================================== */
 const CONFIG = {
   // Número do WhatsApp com código do país e DDD, só dígitos. Ex.: 5561999998888
   whatsapp: "5561998895362",
   // Como o número aparece escrito no site
   phoneDisplay: "(61) 99889-5362",
-  email: "contato@seudominio.com.br",
-  instagram: "evonext",           // sem o @
-  // Newsletter: cole aqui o endereço de um serviço de formulário (ex.: Formspree).
-  // Se ficar vazio, o cadastro abre uma conversa no WhatsApp.
+  email: "evonextdigital@gmail.com",
+  instagram: "evonextdigital",    // sem o @
+  // Endereço do formulário da newsletter. Se vazio, o cadastro abre o WhatsApp.
   newsletterEndpoint: ""
 };
 
@@ -32,7 +30,7 @@ $$("[data-show]").forEach((el) => {
   if (kind === "email") { el.textContent = CONFIG.email; el.href = `mailto:${CONFIG.email}`; }
   if (kind === "instagram") {
     el.textContent = `@${CONFIG.instagram}`;
-    el.href = `https://instagram.com/${CONFIG.instagram}`;
+    el.href = `https://www.instagram.com/${CONFIG.instagram}/`;
   }
 });
 
